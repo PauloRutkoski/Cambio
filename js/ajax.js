@@ -9,7 +9,7 @@ function ajaxRequisition(){
         if(request.readyState == 4 && request.status == 200) {
             jsonReturn = JSON.parse(request.responseText);
             addData(chart, jsonReturn[0].create_date ,jsonReturn[0].ask);
-            
+            chart.update();
         }
     }
     chart = generateChart();
