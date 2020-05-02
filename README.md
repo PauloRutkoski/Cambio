@@ -2,7 +2,7 @@
 
 
 
-> ### This is an application that shows de daily exchange price of dollar, bitcoin and euro in brazilian real.
+> ### This is an application that shows the daily exchange price of dollar, bitcoin and euro in brazilian real.
 
 
 ### Motivation 
