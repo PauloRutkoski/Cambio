@@ -16,24 +16,31 @@
         
     </head>
     <body>
+        <!--form-control-lg-->
 
         <section id="currency-area">
             <h1>Currency</h1>
-            <select class="form-control-lg" id="currency" onchange="ajaxRequisition(this.value)">
+            <select class="form" id="currency" onchange="ajaxRequisition(this.value)">
                 <option value="">Select</option>
-                <option value=USD >Dollar - USD</option>
-                <option value=EUR >Euro - EUR</option>
-                <option value=BTC >Bitcoin - BTC</option>
+                <option value="USD" >Dollar - USD</option>
+                <option value="EUR" >Euro - EUR</option>
+                <option value="BTC" >Bitcoin - BTC</option>
             </select>
 
-            <div id="brl-area">
+            <input type="text" id="value-input" class="label" placeholder="1.00" value="1">
+
+            <div class="label" id="display">
                 Select an Option
             </div>
+
+            <button class="btn-primary button" onclick="ajaxRequisition(this.value)">
+                <i class="fas fa-exchange-alt"></i>
+            </button>
             
         </section>
 
         <!-- Scripts -->
-        <script src="js/requisition.js"></script>
+        <script src="js/script.js"></script>
 
         <!--Bootstrap4 JS-->
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

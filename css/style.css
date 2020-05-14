@@ -3,12 +3,14 @@
     margin: 5% 20%;
     border: 2px solid black;
     border-radius: 30px;
-    padding:50px;
+    padding:30px;
     padding-top: 0;
+    text-align: center;
 }
 
-#brl-area{
-    float: right;
+.label{
+    display: inline-block;
+    margin: 0 10px;
     border: 1px solid black;
     border-radius: 10px;
     line-height: 45px;
@@ -25,4 +27,23 @@ h1{
     padding-top: 15px;
     padding-bottom: 30px;
     cursor: default;
+}
+
+.button{
+    display: inline-block;
+    position: relative;
+    bottom: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.form{
+    width:150px;
+    height: 48px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 4px;
+    font-weight: bold;
+    font-size: 18px;
 }
