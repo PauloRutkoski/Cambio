@@ -18,7 +18,7 @@
     <body>
         <section id="currency-area">
             <h1>Currency</h1>
-            <select class="form" id="currency" onchange="ajaxRequisition(this.value)">
+            <select class="form" id="currency" onchange="ajaxRequisition()">
                 <option value="">Select</option>
                 <option value="USD" >Dollar - USD</option>
                 <option value="EUR" >Euro - EUR</option>
@@ -31,7 +31,7 @@
                 Select an Option
             </div>
 
-            <button class="btn-primary button" onclick="ajaxRequisition(this.value)">
+            <button class="btn-primary button" onclick="ajaxRequisition()">
                 <i class="fas fa-exchange-alt"></i>
             </button>
             
